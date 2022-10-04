@@ -33,20 +33,20 @@ h3{
 .top-container{
 
     background-color: #CDF0EA;
-    height:555px;
+    height:100%;
     position: relative;
     padding-top: 150px;
     
 }
 .mountains{
     position: relative;
-    top: 75px;
+    top: 0px;
 }
 .trees1{
     height: 480px;
     width:460px;
     position: absolute;
-    top:280px;
+    top:210px;
     right:0px;
 }
 .trees2{
