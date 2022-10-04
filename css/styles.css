@@ -1,0 +1,93 @@
+body{
+    text-align: center;
+    margin:0px;
+    font-family: 'Inconsolata', monospace;
+}
+div{
+    background-color: white; 
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color:grey;
+    border-width: 5px;
+    height: 0px;
+    width: 2%;   
+}
+h1{
+    margin-top:0px;
+    margin-bottom:0px;
+    font-family: 'Sacramento';
+    
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+/**********************************************CLASS SELECTORS****************************************/
+.btn{
+    color: #B6E388;
+}
+.top-container{
+
+    background-color: #CDF0EA;
+    height:555px;
+    position: relative;
+    padding-top: 150px;
+    
+}
+.mountains{
+    position: relative;
+    top: 75px;
+}
+.trees1{
+    height: 480px;
+    width:460px;
+    position: absolute;
+    top:280px;
+    right:0px;
+}
+.trees2{
+    position: absolute;
+    bottom:-60px;
+    left:-50px;
+}
+.top-cloud{
+    width: 250px;
+}
+.bottom-cloud{
+    width: 250px;
+}
+.middle-container{
+    padding-top:20px;
+    margin-bottom: 10px;
+
+}
+.bottom-container{
+    background-color:#CDF0EA ;
+    padding-top: 30px;
+    height: 80px;
+
+}
+.bottom-cloud{
+    position: absolute;
+
+}
+.top-cloud{
+    position:absolute ;
+    right: 500px;
+    top: 80px;
+}
+.footer-link{
+    color:#B6E388;
+}
+.contact-me{
+
+}
+/******************************************ID SELECTORS*****************************************/
+#a-programmer{
+    font-family: "silkscreen";
+
+}
