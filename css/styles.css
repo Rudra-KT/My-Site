@@ -9,60 +9,75 @@ div{
 hr{
     border-style: none;
     border-top-style: dotted;
-    border-color:grey;
+    border-color:#a0a9a9
+    ;
     border-width: 5px;
     height: 0px;
     width: 2%;   
 }
 h1{
+    color: #66BFBF;
+    font-size: 5.625rem;
     margin-top:0px;
     margin-bottom:0px;
     font-family: 'Sacramento';
 
 }
 h2{
+    font-weight: normal;
+    color: #66BFBF;
+    margin-top:0px;
+    margin-bottom:0px;
     font-family: 'Montserrat', sans-serif;
 }
 h3{
+    color: #11999E;
     font-family: 'Montserrat', sans-serif;
 }
-/**********************************************CLASS SELECTORS****************************************/
-.btn{
-    color: #B6E388;
+a:hover{
+    color: rgb(190, 197, 197);
 }
+/**********************************************CLASS SELECTORS****************************************/
+
 .top-container{
 
     background-color: #CDF0EA;
-    height:555px;
     position: relative;
     padding-top: 150px;
+    margin-bottom: 40px;
 
 }
 .mountains{
+    margin-right: auto;
+    margin-left: auto;
     position: relative;
-    top: 75px;
+    top: 0px;
 }
 .trees1{
-    height: 480px;
-    width:460px;
+    width:30.5%;
     position: absolute;
-    top:280px;
+    top:260px;
     right:0px;
 }
 .trees2{
+    width: 30.5%;
     position: absolute;
-    bottom:-60px;
-    left:-50px;
+    bottom:-50px;
+    left:0px;
 }
 .top-cloud{
-    width: 250px;
+    width: 15%;
 }
 .bottom-cloud{
-    width: 250px;
+    width: 15%;
+    position: relative;
+    bottom: 345px;
+    left: 360px;
 }
 .middle-container{
     padding-top:20px;
     margin-bottom: 10px;
+    margin-bottom: 20px;
 
 }
 .bottom-container{
@@ -71,21 +86,60 @@ h3{
     height: 80px;
 
 }
-.bottom-cloud{
-    position: absolute;
-
-}
 .top-cloud{
     position:absolute ;
     right: 500px;
     top: 80px;
 }
-.footer-link{
-    color:#81af54;
-}
-.contact-me{
+.bottom-cloud{
+    position: absolute;
 
 }
+.profile{
+    margin-bottom: 50px;
+}
+.skills{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.skill-row{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.contact-me{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.contact-message{
+    margin: 40px auto 50px;
+}
+.btn {
+    background: rgb(84, 176, 176);
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    font-family:'Merriweather Sans', sans-seri;
+    color: white;
+    font-size: 19px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  .btn:hover {
+    background: #18aba6;
+    text-decoration: none;
+  }
+.footer-link{
+    text-decoration: none;
+    margin: 0 5px 0 5px;
+    color:#11999E;
+}
+
+.copyright{
+    padding-top: 14px;
+    font-size: 0.7rem;
+    
+}
+
 /******************************************ID SELECTORS*****************************************/
 #a-programmer{
     font-family: "silkscreen";
