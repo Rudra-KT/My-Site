@@ -41,7 +41,7 @@ a:hover{
 /**********************************************CLASS SELECTORS****************************************/
 
 .top-container{
-
+    width:100%;
     background-color: #CDF0EA;
     position: relative;
     padding-top: 150px;
@@ -84,7 +84,7 @@ a:hover{
 .bottom-container{
     background-color:#CDF0EA ;
     padding-top: 50px;
-    height: 80px;
+    height: 100px;
 
 }
 .top-cloud{
