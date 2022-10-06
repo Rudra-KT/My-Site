@@ -9,8 +9,7 @@ div{
 hr{
     border-style: none;
     border-top-style: dotted;
-    border-color:#a0a9a9
-    ;
+    border-color:#a0a9a9;
     border-width: 5px;
     height: 0px;
     width: 2%;   
@@ -84,7 +83,7 @@ a:hover{
 .bottom-container{
     background-color:#CDF0EA ;
     padding-top: 50px;
-    height: 155px;
+    height: 150px;
 
 }
 .top-cloud{
@@ -103,14 +102,15 @@ a:hover{
     margin-bottom: 30px;
 }
 .skills{
-    margin-top: 25px;
+    margin-top: 30px;
     margin-bottom: 50px;
 }
 .skill-row{
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 50px;
 }
 .contact-me{
+    font-size: 18x;
     margin-top: 50px;
     margin-bottom: 30px;
 }
