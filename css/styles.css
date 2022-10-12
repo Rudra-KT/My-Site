@@ -1,13 +1,11 @@
 body{
+    position: relative;
     text-align: center;
     margin:0px;
     font-family: 'Inconsolata', monospace;
 }
-div{
-    background-color: white; 
-}
 hr{
-    border-style: none;
+    border-style: none; 
     border-top-style: dotted;
     border-color:#a0a9a9;
     border-width: 5px;
@@ -38,6 +36,26 @@ a:hover{
     color: rgb(190, 197, 197);
 }
 /**********************************************CLASS SELECTORS****************************************/
+
+.container-fluid{
+    background-color: #CDF0EA;
+}
+
+.navbar{
+    padding: 0 0 4.5rem 0;
+}
+/* .navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+} */
+.nav-item{
+    padding:0 18px;
+}
+.nav-link{
+    font-family:'silkscreen', sans-serif;
+    color: #66BFBF;
+}
 
 .top-container{
     width:100%;
@@ -149,6 +167,11 @@ a:hover{
 }
 
 /******************************************ID SELECTORS*****************************************/
+
+#bio{
+    background-color: #CDF0EA
+    ;
+}
 #a-programmer{
     font-family: "silkscreen";
 
@@ -183,6 +206,14 @@ a:hover{
     }
     .middle-container-img{
         width: 30%;
+    }
+    
+}
+
+@media (max-width:1000px) {
+    .burger{
+        position: relative;
+        right: 5px;
     }
     
 }
