@@ -57,7 +57,9 @@ a:hover{
     font-family:'silkscreen', sans-serif;
     color: #66BFBF;
 }
-
+.home-name{
+    padding-top: 20px;
+}
 .top-container{
     width:100%;
     background-color: #CDF0EA;
@@ -70,7 +72,7 @@ a:hover{
     margin-right: auto;
     margin-left: auto;
     position: relative;
-    top: 0px;
+    top: 38px;
 }
 /* .trees1{
     width:30.5%;
@@ -91,7 +93,7 @@ a:hover{
     width: 15%;
     position: relative;
     bottom: 345px;
-    left: 340px;
+    left: 360px;
 }
 .middle-container{
     background-color: whitesmoke;
@@ -116,7 +118,7 @@ a:hover{
 
     position: absolute;
     top: 330px;
-    left:450px;
+    left:400px;
 
 }
 .profile{
@@ -186,21 +188,6 @@ a:hover{
     .mountains{
         width: 80%;
     }
-    .top-cloud{
-        position: absolute;
-        top: 100px;
-        right: 20px;
-        width: 25%;
-
-    }
-    .bottom-cloud{
-        position: absolute;
-        left: 20px;
-        width: 25%;
-        top: 350px;
-
-
-    }
     hr{
         width: 4%;
     }
@@ -214,8 +201,27 @@ a:hover{
 }
 
 @media (max-width:1000px) {
+    .top-container{
+        padding-top: 40px;
+    }
     .fixed-top{
         position: relative !important;
+    }
+    .top-cloud{
+        position: absolute;
+        top: 0px;
+        right: 20px;
+        width: 25%;
+        padding-bottom: 20px;
+    }
+    .home-name{
+        padding-top: 20px ;
+    }
+    .bottom-cloud{
+        position: absolute;
+        left: 20px;
+        width: 25%;
+        top: 250px;
     }
     .burger{
         position: relative;
