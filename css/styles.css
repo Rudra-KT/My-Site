@@ -214,6 +214,9 @@ a:hover{
 }
 
 @media (max-width:1000px) {
+    .fixed-top{
+        position: relative !important;
+    }
     .burger{
         position: relative;
         right: 5px;
