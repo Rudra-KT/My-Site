@@ -1,4 +1,5 @@
 body{
+    background-color: #CDF0EA;
     position: relative;
     text-align: center;
     margin:0px;
@@ -93,6 +94,7 @@ a:hover{
     left: 360px;
 }
 .middle-container{
+    background-color: whitesmoke;
     position: relative;
     padding-top:20px;
     margin-bottom: 10px;
@@ -101,7 +103,7 @@ a:hover{
 }
 .bottom-container{
     background-color:#CDF0EA ;
-    padding-top: 100px;
+    padding-top: 80px;
     height: 150px;
 
 }
@@ -129,9 +131,10 @@ a:hover{
     margin-bottom: 50px;
 }
 .contact-me{
+    background-color: whitesmoke;
     font-size: 18x;
     margin-top: 50px;
-    margin-bottom: 30px;
+    padding-bottom: 40px;
 }
 .contact-message{
     margin: 40px auto 50px;
