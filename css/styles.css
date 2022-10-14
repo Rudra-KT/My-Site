@@ -185,9 +185,6 @@ a:hover{
 
 
 @media (max-width:800px) {
-    .mountains{
-        width: 80%;
-    }
     hr{
         width: 4%;
     }
@@ -203,6 +200,12 @@ a:hover{
 @media (max-width:1000px) {
     .top-container{
         padding-top: 40px;
+        padding-bottom: 50px;
+    }
+    .mountains{
+        position: relative;
+        top:90px;
+        width: 80%;
     }
     .fixed-top{
         position: relative !important;
